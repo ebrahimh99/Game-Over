@@ -1,0 +1,114 @@
+body {
+    font-family: "Comfortaa", sans-serif;
+    background-color: #272B30;
+    color: white !important;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: white !important;
+    font-family: "Comfortaa", sans-serif;
+
+}
+
+
+/*------------------------------------------ Home -------------------------------------------*/
+header img {
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+    color: #09c !important;
+    transition: color 0.5s;
+}
+
+
+nav {
+    background-color: rgb(58, 73, 123) !important;
+
+    margin-inline: auto;
+    margin-top: -30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+}
+
+nav .logo img {
+    width: 50px;
+}
+
+nav .logo .navbar-brand {
+    font-family: "Nerko One", cursive;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+nav ul li a {
+    font-size: 12.25px;
+    font-weight: 400;
+    line-height: 18.375px;
+}
+
+
+
+
+
+
+.home .card {
+    filter: grayscale(0.7);
+    transition: transform 0.5s, filter 0.5s 0.1s;
+}
+
+.home .card:hover {
+    transform: scale(1.05);
+    filter: grayscale(0);
+}
+
+
+/*------------------------------------------ Details -------------------------------------------*/
+
+
+
+
+
+.details {
+    background-color: #272729be;
+
+    backdrop-filter: blur(4px);
+    min-height: 100vh;
+}
+
+.details .container header h1{
+    font-family: "Nerko One", cursive;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 33.6px;
+
+}
+
+/*------------------------------------------ loading -------------------------------------------*/
+
+.loading {
+    z-index: 999999;
+    display: flex;
+    background-color: #272b30e3;
+}
+
+
+
+body {
+    overflow: hidden;
+}
+
+
+

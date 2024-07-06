@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+  <!-- font-family: "Comfortaa", sans-serif;-->
+
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nerko+One&display=swap"
+    rel="stylesheet">
+  <!--  font-family: "Nerko One", cursive;-->
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- font awesome -->
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css"><!-- bootstrap -->
+
+
+
+  <link rel="stylesheet" href="./css/index.-style.css">
+
+  <title>home</title>
+</head>
+
+<body>
+
+  <section class="games">
+    <header id="test">
+      <img src="./images/wraper.png" class="w-100" alt="game photo" />
+    </header>
+    <nav class="navbar mt-1 navbar-expand-lg w-75">
+      <div class="container">
+        <div class="logo">
+          <img src="./images/logo-sm.png" alt="">
+          <a class="navbar-brand text-white" href="#">GAME REVIEWS</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav menu ms-auto mb-2 mb-lg-0">
+            <li class="nav-item p-2">
+              <a class="nav-link text-white active" aria-current="page" role="button" data-category="mmorpg">MMORPG</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" role="button" data-category="shooter">SHOOTER</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" role="button" data-category="sailing">SAILING</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" role="button" data-category="permadeath">PERMADEATH</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" role="button" data-category="superhero">SUPERHERO</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" role="button" data-category="pixel">PIXEL</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container my-5 home">
+      <section class="position-relative">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gameData">
+        </div>
+      </section>
+    </main>
+  </section>
+  <section class="details d-none">
+    <div class="container">
+      <header class="hstack justify-content-between">
+        <h1 class="text-center h3 py-4">Details Game</h1>
+        <button class="btn-close btn-close-white" id="btnClose"></button>
+      </header>
+      <div class="row g-4" id="detailsContent">
+      </div>
+    </div>
+  </section>
+  <div class="loading text-white position-absolute start-0 end-0 top-0 bottom-0 justify-content-center align-items-center">
+    <i class="fa-solid fa-spinner fa-spin fa-7x"></i>
+  </div>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="./js/main.js" type="module"></script>
+
+</body>
+
+</html>
